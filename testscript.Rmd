@@ -1,0 +1,19 @@
+---
+title: "test"
+author: "Martin Schweinberger"
+date: "30 5 2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+mtcars %>%
+  as.data.frame() %>%
+  ggplot(aes(cyl, mpg, group = cyl)) +
+  geom_boxplot()
+```
+
+
