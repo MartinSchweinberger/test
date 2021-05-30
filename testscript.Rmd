@@ -16,5 +16,8 @@ mtcars %>%
   geom_boxplot()
 ```
 
+```{r}
+sessionInfo()
+```
 
-New test
+The End
